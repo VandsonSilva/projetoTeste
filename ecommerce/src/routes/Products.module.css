@@ -1,0 +1,8 @@
+.title {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    background-color: #ffbb33;
+    box-shadow: 3px 3px 0 3px rgba(0,0,0,0.5);
+}

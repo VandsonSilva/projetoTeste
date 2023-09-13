@@ -1,0 +1,64 @@
+.container_cards {
+    width: 100%;
+    max-width: 300px;
+    background-color: #f5eeee;
+    display: flex;
+    flex-direction: column;
+    gap: 1;
+    cursor: pointer;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.card {
+    width: 100%;
+    padding: 1em;
+  
+}
+
+.info {
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.preco{ 
+   font-size: 30px;
+   font-weight: 400;
+   display: block;
+   margin-bottom: 10px; 
+}
+
+.details {
+    font-size: 15px;
+    color: rgba(0,0,0,0.5);
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.button_add {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    margin: 12px 15px;
+    color: #0c5dd6;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(255,255,255, 0.8);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.container_cards:hover {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.8);
+}
+
+.container_cards:hover .button_add {
+    display: flex;
+}
